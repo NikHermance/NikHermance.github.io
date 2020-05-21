@@ -20,9 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
   document.getElementById("years-old").innerText = y + " year old"
 })
 
-document.addEventListener('DOMContentLoaded', function () {
+/* document.addEventListener('DOMContentLoaded', function () {
   new Date().getFullYear()
   document.getElementById("current-year").innerHTML = new Date().getFullYear();
-});
-
-// Modal
+}); */
