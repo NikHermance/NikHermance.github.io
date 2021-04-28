@@ -10,9 +10,4 @@ document.addEventListener('DOMContentLoaded', function () {
   var y = Math.floor(d / 365)
 
   document.getElementById("years-old").innerText = y + " year old"
-})
-
-document.addEventListener('DOMContentLoaded', function () {
-  new Date().getFullYear()
-  document.getElementById("current-year").innerHTML = new Date().getFullYear();
-})
+});
