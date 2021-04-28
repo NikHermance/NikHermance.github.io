@@ -1,11 +1,3 @@
-window.addEventListener('scroll', function () {
-  // Hide arrow button when scrolling down the page
-  var scrollPosition = window.scrollY
-  var logoContainer = document.getElementsByClassName('arrow')[0]
-  if (scrollPosition >= 100) logoContainer.classList.add('arrow--scrolled')
-  else logoContainer.classList.remove('arrow--scrolled')
-})
-
 document.addEventListener('DOMContentLoaded', function () {
   // Load the time since birthdate
   var years_old = new Date("1997-10-16").getTime()
@@ -20,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
   document.getElementById("years-old").innerText = y + " year old"
 })
 
-/* document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () {
   new Date().getFullYear()
   document.getElementById("current-year").innerHTML = new Date().getFullYear();
-}); */
+})
